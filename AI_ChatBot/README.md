@@ -1,6 +1,6 @@
-## Python chatbot with react front-end
+# Python chatbot with react front-end
 
-# Use python 3.8 ( because tensorflow will not work on 3.9 )
+## Use python 3.8 ( because tensorflow will not work on 3.9 )
 
 # Steps
 

@@ -1,0 +1,51 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+
+
+.container{
+  width: 40vw;
+  margin: auto;
+}
+
+form{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+input[type="text"]{
+  outline: none;
+  border: 1px solid white;
+  font-size: 20px;
+  border-radius: 16px;
+  height: 1.5rem;
+  color: white;
+  padding: 8px;
+  background-color: #2F2F2F;
+  font-family: 'Inter', sans-serif;
+}
+
+input[type="submit"]{
+  border: 1px solid white;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  transition: 0.2s all linear;
+  height: 2.5rem;
+}
+
+input[type="submit"]:hover{
+  background-color:  #0084FF;
+  color:  white;
+} */
+
+body{
+  
+ /* background: url('./bg.svg'); */
+  
+  background-color: #161b22;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

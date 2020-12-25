@@ -1,4 +1,5 @@
 body {
+  background-color: var(--background);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +12,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --red: #ff3860;
+  --red-dark: #ff1443;
+  --red-light: #ff5c7c;
+  --blue: #498afb;
+  --blue-dark: #2674fa;
+  --blue-light: #6ca0fc;
+  --orange: #fa8142;
+  --orange-dark: #f96a1f;
+  --orange-light: #fb9865;
+  --green: #09c372;
+  --green-dark: #07a15e;
+  --green-light: #0be586;
+  --purple: #9166cc;
+  --purple-dark: #7d4bc3;
+  --purple-light: #a481d5;
+  /* --#ff0: #ffdd57;
+  --#ff0-dark: #ffd633;
+  --#ff0-light: #ffe47a; */
+  --pink: #ff4088;
+  --pink-dark: #ff1c72;
+  --pink-light: #ff649e;
+  --gray0: #f8f8f8;
+  --gray1: #dbe1e8;
+  --gray2: #b2becd;
+  --gray3: #6c7983;
+  --gray4: #454e56;
+  --gray5: #2a2e35;
+  --gray6: #12181b;
+  
+
+}
+  
+.dark-theme {
+  --background: var(--gray6);
+  --text-color: var(--gray2);
+  --h-color: #fff;
+  --nav-shadow: 4px 0 10px -3px #010101;
+  --card-shadow: 0 4px 8px rgba(0,0,0,0.38);
+  --toc-shadow: rgba(0,0,0,0.7) 0px 10px 20px 0px;
+  --nav-bg: var(--gray5);
+  --tag-bg: var(--gray4);
+  --code-bg: #22262f;
+  --card-bg: var(--gray5);
+  --overlay-bg: rgba(0,0,0,0.9);
+  --h-border: 2px dashed var(--nav-bg);
+  --card-radius: 0.25em;
+  transition: all .3s ease;
+}
+
+.light-theme {
+  --background: var(--gray0);
+  --text-color: var(--gray4);
+  --h-color: var(--gray6);
+  --nav-shadow: 4px 0 10px -3px #c1c1c1;
+  --card-shadow: 0 4px 8px rgba(0,30,84,0.12);
+  --toc-shadow: rgba(0,0,0,0.2) 0px 10px 20px 0px;
+  --nav-bg: #fff;
+  --tag-bg: var(--gray2);
+  --code-bg: #fff;
+  --card-bg: #fff;
+  --overlay-bg: hsla(0,0%,100%,0.9);
+  --h-border: 2px dashed var(--gray1);
+  transition: all .5s ease;
+}
+

@@ -40,12 +40,3 @@ input[type="submit"]:hover{
   background-color:  #0084FF;
   color:  white;
 } */
-
-body{
-  
- /* background: url('./bg.svg'); */
-  
-  background-color: #161b22;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
